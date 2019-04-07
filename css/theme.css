@@ -1,0 +1,56 @@
+html, body, header, nav, section, article, aside, footer{
+	margin:0px;
+	height:100%;
+	min-height:100%;
+}
+
+
+header{
+	padding: 50px;
+}
+#main_header{
+	background-color: #FF6600;
+	text-align: center;
+	vertical-align: middle;
+    min-height:100%;
+}
+#main_header:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+nav{
+	position:absolute;
+	top:30px;
+	right:50px;
+}
+nav li{
+	color:rgba(255,255,255,0.5);
+	font-size:20px;
+	padding:10px;
+	display:inline;
+	transition: color 0.5s ease	;
+}
+nav li:hover{
+	
+	color:rgba(255,255,255,0.9);
+	/*color: rgba(93,212,163,1);*/
+	
+}
+nav a:hover{
+	text-decoration: none;
+}
+
+section{
+
+}
+article{
+
+}
+aside{
+
+}
+footer{
+
+}
